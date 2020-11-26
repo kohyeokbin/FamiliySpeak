@@ -4,8 +4,9 @@ import time
 import socket
 import collections
 import sys
-# my stuff
-from my_connection import Listener, AuthenticationError, AuthenticationTimeout
+# my stuff    
+from my_connection import Listener, AuthenticationError, AuthenticationTimeout       # my_connection error  ModuleNotFoundError: No module named 'my_connection' ?? 
+										      										
 import upnp
 
 
